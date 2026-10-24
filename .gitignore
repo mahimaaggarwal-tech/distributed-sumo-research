@@ -1,0 +1,5 @@
+.DS_Store
+*.o
+demo/shared_vehicle_state_demo
+build/
+.env
