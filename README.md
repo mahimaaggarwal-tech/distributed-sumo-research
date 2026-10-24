@@ -2,7 +2,7 @@
 
 This repository contains two deliberately separated pieces:
 
-1. **`demo/`** — a small, independently written MPI shared-memory demonstration. It is a runnable teaching/demo program and does not depend on QarSUMO or SUMO internals.
+1. **`demo/`** — a small, independently written MPI shared-memory demonstration. It is a runnable teaching/demo program and does not depend on SUMO internals.
 2. **`sumo-modifications/candidate-files/`** — selected files from the modified SUMO source snapshot supplied for this work, chosen because they contain shared-state integration markers. These are review candidates, **not a verified, buildable patch** against an identified upstream commit.
 
 ## What the demo demonstrates
