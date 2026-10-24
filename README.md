@@ -43,6 +43,12 @@ Before publishing `sumo-modifications/candidate-files/`:
 
 The files are separated from the runnable demo so you can review them before committing. Do not represent the candidate file set as a complete SUMO source release or a verified patch.
 
-## Repository scope
+## Repository Scope
 
-No QarSUMO source archive, QarSUMO application source, datasets, simulation outputs, or private project files are included. The standalone demo is independently written for this portfolio package.
+This repository presents experimental work on distributed traffic simulation, SUMO source modifications, and MPI-based shared-memory techniques.
+
+It includes selected source changes, a standalone demonstration, and technical documentation describing the architecture, engineering challenges, and validation approach.
+
+The standalone demo is an independently developed example intended to illustrate shared-memory coordination between MPI processes. It is separate from the SUMO integration and does not claim to reproduce the complete simulation system.
+
+The experimental work is ongoing, and simulation accuracy and performance must be validated against appropriate baselines.
